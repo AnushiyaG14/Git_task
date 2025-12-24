@@ -17,7 +17,7 @@ def get_user_input() -> tuple[int, int]:
 def main():
     x, y = get_user_input()
     result = sum_two_numbers(x, y)
-    print(f"Sum: {result}")
+    print(f"feature result: {result}")
 
 
 if __name__ == "__main__":
