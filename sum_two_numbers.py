@@ -4,6 +4,7 @@ def sum_two_numbers(a: int, b: int) -> int:
     """
     return a + b
 
+
 def get_user_input() -> tuple[int, int]:
     """
     Reads two integers from user input.
@@ -11,6 +12,7 @@ def get_user_input() -> tuple[int, int]:
     x = int(input("Enter first number: "))
     y = int(input("Enter second number: "))
     return x, y
+
 
 def main():
     x, y = get_user_input()
@@ -20,5 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
